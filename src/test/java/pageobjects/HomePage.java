@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Reporter;
 
 public class HomePage extends PageBase {
-	@FindBy(xpath = "//span[text()='My Account']")
+	@FindBy(xpath = "//a[@title='My Account']")
 	WebElement linkMyAccount;
 	@FindBy(linkText = "Register")
 	WebElement linkRegister;
