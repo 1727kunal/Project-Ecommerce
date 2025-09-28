@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import pageobjects.HomePage;
 import pageobjects.LoginPage;
 import pageobjects.MyAccountPage;
+import utility.CommonUtility;
 
 public class TC002_Login extends TestBase {
 	HomePage objHomePage;
@@ -25,7 +26,8 @@ public class TC002_Login extends TestBase {
 		objLoginPage.enterPassword("kunal1727");
 		objLoginPage.clickLoginButton();
 
-		String expectedTitle = objMyAccountPage.getPageTitle();
-		Assert.assertEquals(driver.getTitle(), expectedTitle);
+		CommonUtility.holdFor(1000);
+		String currentTitle = driver.getTitle();
+		Assert.assertEquals(currentTitle, "My Account");
 	}
 }

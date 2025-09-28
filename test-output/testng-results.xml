@@ -47,19 +47,19 @@
       <![CDATA[Password is entered]]>
     </line>
     <line>
-      <![CDATA[Login continue button is clicked]]>
+      <![CDATA[Login button is clicked]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-09-28T12:31:05 IST" name="Project Ecommerce" finished-at="2025-09-28T12:31:20 IST" duration-ms="14844">
+  <suite started-at="2025-09-28T13:25:22 IST" name="Project Ecommerce" finished-at="2025-09-28T13:25:39 IST" duration-ms="17073">
     <groups>
     </groups>
-    <test started-at="2025-09-28T12:31:05 IST" name="Verfiy Registration" finished-at="2025-09-28T12:31:14 IST" duration-ms="9462">
+    <test started-at="2025-09-28T13:25:22 IST" name="Verfiy Registration" finished-at="2025-09-28T13:25:33 IST" duration-ms="10740">
       <class name="testcases.TC001_AccountRegistration">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TC001_AccountRegistration@34e9fd99]" started-at="2025-09-28T12:31:05 IST" name="launchBrowser" finished-at="2025-09-28T12:31:09 IST" duration-ms="4309" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TC001_AccountRegistration@34e9fd99]" started-at="2025-09-28T13:25:22 IST" name="launchBrowser" finished-at="2025-09-28T13:25:27 IST" duration-ms="5095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyRegistration()[pri:0, instance:testcases.TC001_AccountRegistration@34e9fd99]" started-at="2025-09-28T12:31:09 IST" name="verifyRegistration" finished-at="2025-09-28T12:31:14 IST" duration-ms="4684" status="PASS">
+        <test-method signature="verifyRegistration()[pri:0, instance:testcases.TC001_AccountRegistration@34e9fd99]" started-at="2025-09-28T13:25:27 IST" name="verifyRegistration" finished-at="2025-09-28T13:25:33 IST" duration-ms="5158" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicked on My Account Link]]>
@@ -96,19 +96,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC001_AccountRegistration@34e9fd99]" started-at="2025-09-28T12:31:14 IST" name="tearDown" finished-at="2025-09-28T12:31:14 IST" duration-ms="369" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC001_AccountRegistration@34e9fd99]" started-at="2025-09-28T13:25:33 IST" name="tearDown" finished-at="2025-09-28T13:25:33 IST" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TC001_AccountRegistration -->
     </test> <!-- Verfiy Registration -->
-    <test started-at="2025-09-28T12:31:14 IST" name="Verfiy Login" finished-at="2025-09-28T12:31:20 IST" duration-ms="5276">
+    <test started-at="2025-09-28T13:25:33 IST" name="Verfiy Login" finished-at="2025-09-28T13:25:39 IST" duration-ms="6212">
       <class name="testcases.TC002_Login">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TC002_Login@6913c1fb]" started-at="2025-09-28T12:31:14 IST" name="launchBrowser" finished-at="2025-09-28T12:31:17 IST" duration-ms="2748" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TC002_Login@6913c1fb]" started-at="2025-09-28T13:25:33 IST" name="launchBrowser" finished-at="2025-09-28T13:25:36 IST" duration-ms="2784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verfiyLogin()[pri:0, instance:testcases.TC002_Login@6913c1fb]" started-at="2025-09-28T12:31:17 IST" name="verfiyLogin" finished-at="2025-09-28T12:31:19 IST" duration-ms="2247" status="PASS">
+        <test-method signature="verfiyLogin()[pri:0, instance:testcases.TC002_Login@6913c1fb]" started-at="2025-09-28T13:25:36 IST" name="verfiyLogin" finished-at="2025-09-28T13:25:39 IST" duration-ms="3134" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicked on My Account Link]]>
@@ -123,11 +123,11 @@
               <![CDATA[Password is entered]]>
             </line>
             <line>
-              <![CDATA[Login continue button is clicked]]>
+              <![CDATA[Login button is clicked]]>
             </line>
           </reporter-output>
         </test-method> <!-- verfiyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC002_Login@6913c1fb]" started-at="2025-09-28T12:31:19 IST" name="tearDown" finished-at="2025-09-28T12:31:20 IST" duration-ms="274" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC002_Login@6913c1fb]" started-at="2025-09-28T13:25:39 IST" name="tearDown" finished-at="2025-09-28T13:25:39 IST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
