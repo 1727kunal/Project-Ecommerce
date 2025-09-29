@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Configuration SYSTEM "log4j2.dtd">
+<Configuration status="WARN">
+
+	<Appenders>
+		<!-- Rolling file appender -->
+		<RollingFile name="RollingFileLogger"
+			fileName="Logs/app.log"
+			filePattern="Logs/archive/app-%d{yyyy-MM-dd}.log.gz">
+
+			<PatternLayout>
+				<Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</Pattern>
+			</PatternLayout>
+
+			<Policies>
+				<!-- Roll over every day -->
+				<TimeBasedTriggeringPolicy interval="1" />
+			</Policies>
+
+			<!-- Keep last 7 log files -->
+			<DefaultRolloverStrategy max="7" />
+		</RollingFile>
+	</Appenders>
+
+	<Loggers>
+		<!-- Application logger -->
+		<Logger name="projectecommerce" level="info" additivity="false">
+			<AppenderRef ref="RollingFileLogger" />
+		</Logger>
+
+		<!-- Root logger -->
+		<Root level="info">
+			<AppenderRef ref="RollingFileLogger" />
+		</Root>
+	</Loggers>
+
+</Configuration>

@@ -163,16 +163,20 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Project Ecommerce&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Verfiy Registration&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Registration&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcases.TC001_AccountRegistration&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Verfiy Registration --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Verfiy Login&quot; verbose=&quot;0&quot;&gt;
+  &lt;/test&gt; &lt;!-- Verify Registration --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Login&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcases.TC002_Login&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Verfiy Login --&gt;
+  &lt;/test&gt; &lt;!-- Verify Login --&gt;
 &lt;/suite&gt; &lt;!-- Project Ecommerce --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -184,10 +188,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Verfiy Registration (1 class)</span>
+                <span class="test-name">Verify Registration (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Verfiy Login (1 class)</span>
+                <span class="test-name">Verify Login (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -217,11 +221,11 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyRegistration')
 data.setCell(0, 2, 'testcases.TC001_AccountRegistration')
-data.setCell(0, 3, 6640);
+data.setCell(0, 3, 4778);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verfiyLogin')
 data.setCell(1, 2, 'testcases.TC002_Login')
-data.setCell(1, 3, 2030);
+data.setCell(1, 3, 3409);
 window.suiteTableData['Project_Ecommerce']= { tableData: data, tableDiv: 'times-div-Project_Ecommerce'}
 return data;
 }
@@ -280,31 +284,31 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC001_AccountRegistration</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">launchBrowser</span>
+                <span class="method-name">launchBrowser(windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyRegistration</span>
-                <span class="method-start">3424 ms</span>
+                <span class="method-start">5120 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10074 ms</span>
+                <span class="method-start">9914 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC002_Login</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">launchBrowser</span>
-                <span class="method-start">10562 ms</span>
+                <span class="method-name">launchBrowser(windows, chrome)</span>
+                <span class="method-start">10208 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verfiyLogin</span>
-                <span class="method-start">13428 ms</span>
+                <span class="method-start">12474 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15458 ms</span>
+                <span class="method-start">15885 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
