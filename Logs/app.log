@@ -1,117 +1,134 @@
-2025-09-29 21:15:31 INFO  testcases.TC001_AccountRegistration - ***** Started TC001_AccountRegistration *****
-2025-09-29 21:15:31 INFO  testcases.TC001_AccountRegistration - Clicked on My Account Link
-2025-09-29 21:15:32 INFO  testcases.TC001_AccountRegistration - Clicked on Register Link
-2025-09-29 21:15:33 INFO  testcases.TC001_AccountRegistration - Entered the email address
-2025-09-29 21:15:34 INFO  testcases.TC001_AccountRegistration - Entered the telephone number
-2025-09-29 21:15:34 INFO  testcases.TC001_AccountRegistration - Entered the password
-2025-09-29 21:15:34 INFO  testcases.TC001_AccountRegistration - Entered the confirm password
-2025-09-29 21:15:34 INFO  testcases.TC001_AccountRegistration - Clicked on privacy-policy checkbox
-2025-09-29 21:15:35 INFO  testcases.TC001_AccountRegistration - Clicked on first continue button
-2025-09-29 21:15:40 INFO  testcases.TC001_AccountRegistration - ***** Started TC001_AccountRegistration *****
-2025-09-29 21:15:40 INFO  testcases.TC001_AccountRegistration - Clicked on My Account Link
-2025-09-29 21:15:42 INFO  testcases.TC001_AccountRegistration - Clicked on Register Link
-2025-09-29 21:15:45 INFO  testcases.TC001_AccountRegistration - Entered the email address
-2025-09-29 21:15:45 INFO  testcases.TC001_AccountRegistration - Entered the telephone number
-2025-09-29 21:15:45 INFO  testcases.TC001_AccountRegistration - Entered the password
-2025-09-29 21:15:46 INFO  testcases.TC001_AccountRegistration - Entered the confirm password
-2025-09-29 21:15:46 INFO  testcases.TC001_AccountRegistration - Clicked on privacy-policy checkbox
-2025-09-29 21:15:48 INFO  testcases.TC001_AccountRegistration - Clicked on first continue button
-2025-09-29 21:15:49 INFO  testcases.TC001_AccountRegistration - ***** Started TC001_AccountRegistration *****
-2025-09-29 21:15:49 INFO  testcases.TC001_AccountRegistration - Clicked on My Account Link
-2025-09-29 21:15:51 INFO  testcases.TC001_AccountRegistration - Clicked on Register Link
-2025-09-29 21:15:52 INFO  testcases.TC001_AccountRegistration - Entered the email address
-2025-09-29 21:15:52 INFO  testcases.TC001_AccountRegistration - Entered the telephone number
-2025-09-29 21:15:52 INFO  testcases.TC001_AccountRegistration - Entered the password
-2025-09-29 21:15:52 INFO  testcases.TC001_AccountRegistration - Entered the confirm password
-2025-09-29 21:15:52 INFO  testcases.TC001_AccountRegistration - Clicked on privacy-policy checkbox
-2025-09-29 21:15:53 INFO  testcases.TC002_Login - ***** Started TC002_Login *****
-2025-09-29 21:15:53 INFO  testcases.TC001_AccountRegistration - Clicked on first continue button
-2025-09-29 21:15:53 INFO  testcases.TC002_Login - Clicked on My Account Link
-2025-09-29 21:15:54 INFO  testcases.TC002_Login - Clicked on Login Link
-2025-09-29 21:15:54 INFO  testcases.TC002_Login - Entered the email address
-2025-09-29 21:15:55 INFO  testcases.TC002_Login - Entered the password
-2025-09-29 21:15:56 INFO  testcases.TC002_Login - Clicked on login button
-2025-09-29 21:16:08 INFO  testcases.TC002_Login - ***** Started TC002_Login *****
-2025-09-29 21:16:08 INFO  testcases.TC002_Login - Clicked on My Account Link
-2025-09-29 21:16:09 INFO  testcases.TC002_Login - Clicked on Login Link
-2025-09-29 21:16:10 INFO  testcases.TC002_Login - Entered the email address
-2025-09-29 21:16:10 INFO  testcases.TC002_Login - Entered the password
-2025-09-29 21:16:11 INFO  testcases.TC002_Login - ***** Started TC002_Login *****
-2025-09-29 21:16:11 INFO  testcases.TC002_Login - Clicked on login button
-2025-09-29 21:16:11 INFO  testcases.TC002_Login - Clicked on My Account Link
-2025-09-29 21:16:13 INFO  testcases.TC002_Login - Clicked on Login Link
-2025-09-29 21:16:13 INFO  testcases.TC002_Login - Entered the email address
-2025-09-29 21:16:13 INFO  testcases.TC002_Login - Entered the password
-2025-09-29 21:16:15 INFO  testcases.TC002_Login - Clicked on login button
-2025-09-29 21:18:50 INFO  testcases.TC001_AccountRegistration - ***** Started TC001_AccountRegistration *****
-2025-09-29 21:18:50 INFO  testcases.TC001_AccountRegistration - ***** Started TC001_AccountRegistration *****
-2025-09-29 21:18:50 INFO  testcases.TC001_AccountRegistration - Clicked on My Account Link
-2025-09-29 21:18:50 INFO  testcases.TC001_AccountRegistration - Clicked on My Account Link
-2025-09-29 21:18:52 INFO  testcases.TC001_AccountRegistration - Clicked on Register Link
-2025-09-29 21:18:52 INFO  testcases.TC001_AccountRegistration - Clicked on Register Link
-2025-09-29 21:18:53 INFO  testcases.TC001_AccountRegistration - Entered the email address
-2025-09-29 21:18:53 INFO  testcases.TC001_AccountRegistration - Entered the email address
-2025-09-29 21:18:54 INFO  testcases.TC001_AccountRegistration - Entered the telephone number
-2025-09-29 21:18:54 INFO  testcases.TC001_AccountRegistration - Entered the telephone number
-2025-09-29 21:18:54 INFO  testcases.TC001_AccountRegistration - Entered the password
-2025-09-29 21:18:54 INFO  testcases.TC001_AccountRegistration - Entered the password
-2025-09-29 21:18:54 INFO  testcases.TC001_AccountRegistration - Entered the confirm password
-2025-09-29 21:18:54 INFO  testcases.TC001_AccountRegistration - Entered the confirm password
-2025-09-29 21:18:54 INFO  testcases.TC001_AccountRegistration - Clicked on privacy-policy checkbox
-2025-09-29 21:18:54 INFO  testcases.TC001_AccountRegistration - Clicked on privacy-policy checkbox
-2025-09-29 21:18:56 INFO  testcases.TC001_AccountRegistration - Clicked on first continue button
-2025-09-29 21:18:56 INFO  testcases.TC001_AccountRegistration - Clicked on first continue button
-2025-09-29 21:18:57 INFO  testcases.TC001_AccountRegistration - Clicked on second continue button
-2025-09-29 21:18:57 INFO  testcases.TC001_AccountRegistration - ***** Finished TC001_AccountRegistration *****
-2025-09-29 21:18:57 INFO  testcases.TC001_AccountRegistration - Clicked on second continue button
-2025-09-29 21:18:57 INFO  testcases.TC001_AccountRegistration - ***** Finished TC001_AccountRegistration *****
-2025-09-29 21:19:02 INFO  testcases.TC002_Login - ***** Started TC002_Login *****
-2025-09-29 21:19:02 INFO  testcases.TC002_Login - Clicked on My Account Link
-2025-09-29 21:19:03 INFO  testcases.TC002_Login - Clicked on Login Link
-2025-09-29 21:19:04 INFO  testcases.TC002_Login - Entered the email address
-2025-09-29 21:19:04 INFO  testcases.TC002_Login - Entered the password
-2025-09-29 21:19:05 INFO  testcases.TC002_Login - Clicked on login button
-2025-09-29 21:19:06 INFO  testcases.TC002_Login - ***** Finished TC002_Login *****
-2025-09-29 21:19:10 INFO  testcases.TC001_AccountRegistration - ***** Started TC001_AccountRegistration *****
-2025-09-29 21:19:10 INFO  testcases.TC001_AccountRegistration - Clicked on My Account Link
-2025-09-29 21:19:12 INFO  testcases.TC002_Login - ***** Started TC002_Login *****
-2025-09-29 21:19:12 INFO  testcases.TC001_AccountRegistration - Clicked on Register Link
-2025-09-29 21:19:12 INFO  testcases.TC002_Login - Clicked on My Account Link
-2025-09-29 21:19:13 INFO  testcases.TC001_AccountRegistration - Entered the email address
-2025-09-29 21:19:13 INFO  testcases.TC001_AccountRegistration - Entered the telephone number
-2025-09-29 21:19:13 INFO  testcases.TC001_AccountRegistration - Entered the password
-2025-09-29 21:19:13 INFO  testcases.TC002_Login - Clicked on Login Link
-2025-09-29 21:19:13 INFO  testcases.TC001_AccountRegistration - Entered the confirm password
-2025-09-29 21:19:13 INFO  testcases.TC001_AccountRegistration - Clicked on privacy-policy checkbox
-2025-09-29 21:19:13 INFO  testcases.TC002_Login - Entered the email address
-2025-09-29 21:19:13 INFO  testcases.TC002_Login - Entered the password
-2025-09-29 21:19:14 INFO  testcases.TC001_AccountRegistration - Clicked on first continue button
-2025-09-29 21:19:15 INFO  testcases.TC002_Login - Clicked on login button
-2025-09-29 21:19:16 INFO  testcases.TC002_Login - ***** Finished TC002_Login *****
-2025-09-29 21:19:16 INFO  testcases.TC001_AccountRegistration - Clicked on second continue button
-2025-09-29 21:19:16 INFO  testcases.TC001_AccountRegistration - ***** Finished TC001_AccountRegistration *****
-2025-09-29 21:19:24 INFO  testcases.TC002_Login - ***** Started TC002_Login *****
-2025-09-29 21:19:25 INFO  testcases.TC002_Login - Clicked on My Account Link
-2025-09-29 21:19:25 INFO  testcases.TC002_Login - Clicked on Login Link
-2025-09-29 21:19:25 INFO  testcases.TC002_Login - Entered the email address
-2025-09-29 21:19:26 INFO  testcases.TC002_Login - Entered the password
-2025-09-29 21:19:27 INFO  testcases.TC002_Login - Clicked on login button
-2025-09-29 21:19:28 INFO  testcases.TC002_Login - ***** Finished TC002_Login *****
-2025-09-29 21:44:28 INFO  testcases.TC001_AccountRegistration - ***** Started TC001_AccountRegistration *****
-2025-09-29 21:44:28 INFO  testcases.TC001_AccountRegistration - Clicked on My Account Link
-2025-09-29 21:44:29 INFO  testcases.TC001_AccountRegistration - Clicked on Register Link
-2025-09-29 21:44:30 INFO  testcases.TC001_AccountRegistration - Entered the email address
-2025-09-29 21:44:31 INFO  testcases.TC001_AccountRegistration - Entered the telephone number
-2025-09-29 21:44:31 INFO  testcases.TC001_AccountRegistration - Entered the password
-2025-09-29 21:44:31 INFO  testcases.TC001_AccountRegistration - Entered the confirm password
-2025-09-29 21:44:31 INFO  testcases.TC001_AccountRegistration - Clicked on privacy-policy checkbox
-2025-09-29 21:44:32 INFO  testcases.TC001_AccountRegistration - Clicked on first continue button
-2025-09-29 21:44:33 INFO  testcases.TC001_AccountRegistration - Clicked on second continue button
-2025-09-29 21:44:33 INFO  testcases.TC001_AccountRegistration - ***** Finished TC001_AccountRegistration *****
-2025-09-29 21:44:35 INFO  testcases.TC002_Login - ***** Started TC002_Login *****
-2025-09-29 21:44:37 INFO  testcases.TC002_Login - Clicked on My Account Link
-2025-09-29 21:44:37 INFO  testcases.TC002_Login - Clicked on Login Link
-2025-09-29 21:44:37 INFO  testcases.TC002_Login - Entered the email address
-2025-09-29 21:44:38 INFO  testcases.TC002_Login - Entered the password
-2025-09-29 21:44:38 INFO  testcases.TC002_Login - Clicked on login button
-2025-09-29 21:44:39 INFO  testcases.TC002_Login - ***** Finished TC002_Login *****
+2025-10-05 19:36:29 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 19:36:29 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:36:30 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 19:36:30 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 19:36:30 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 19:36:31 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 19:36:46 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 19:36:46 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:36:46 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 19:36:47 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 19:36:47 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 19:36:47 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 19:36:53 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 19:36:53 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:36:54 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 19:36:54 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 19:36:54 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 19:36:55 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 19:37:09 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 19:37:09 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:37:09 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 19:37:10 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 19:37:10 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 19:37:10 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 19:37:11 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:37:12 INFO  testcases.TC003_DDTLogin - ***** Finished TC003_DDTLogin *****
+2025-10-05 19:47:11 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 19:47:11 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:47:12 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 19:47:12 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 19:47:12 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 19:47:12 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 19:47:27 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 19:47:27 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:47:28 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 19:47:28 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 19:47:28 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 19:47:28 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 19:47:29 ERROR testcases.TC003_DDTLogin - Unexpected result - test failed
+2025-10-05 19:47:33 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 19:47:34 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:47:34 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 19:47:34 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 19:47:34 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 19:47:35 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 19:47:49 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 19:47:49 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:47:50 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 19:47:50 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 19:47:50 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 19:47:50 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 19:47:52 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:47:53 INFO  testcases.TC003_DDTLogin - ***** Finished TC003_DDTLogin *****
+2025-10-05 19:57:01 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 19:57:01 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:57:01 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 19:57:02 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 19:57:02 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 19:57:03 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 19:57:17 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 19:57:17 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:57:18 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 19:57:18 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 19:57:18 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 19:57:18 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 19:57:19 ERROR testcases.TC003_DDTLogin - Unexpected result - test failed
+2025-10-05 19:57:23 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 19:57:23 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:57:24 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 19:57:24 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 19:57:24 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 19:57:25 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 19:57:39 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 19:57:39 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:57:40 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 19:57:40 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 19:57:40 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 19:57:41 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 19:57:41 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 19:57:42 INFO  testcases.TC003_DDTLogin - ***** Finished TC003_DDTLogin *****
+2025-10-05 20:01:37 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 20:01:37 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 20:01:37 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 20:01:38 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 20:01:38 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 20:01:38 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 20:01:54 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 20:01:54 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 20:01:55 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 20:01:55 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 20:01:55 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 20:01:56 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 20:01:56 ERROR testcases.TC003_DDTLogin - Unexpected result - test failed
+2025-10-05 20:02:00 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 20:02:01 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 20:02:01 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 20:02:01 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 20:02:01 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 20:02:02 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 20:02:17 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 20:02:17 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 20:02:17 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 20:02:17 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 20:02:18 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 20:02:18 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 20:02:19 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 20:02:19 INFO  testcases.TC003_DDTLogin - ***** Finished TC003_DDTLogin *****
+2025-10-05 20:08:50 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 20:08:50 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 20:08:51 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 20:08:51 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 20:08:51 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 20:08:52 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 20:09:06 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 20:09:06 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 20:09:07 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 20:09:07 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 20:09:07 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 20:09:08 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 20:09:08 ERROR testcases.TC003_DDTLogin - Unexpected result - test failed
+2025-10-05 20:09:11 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 20:09:12 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 20:09:12 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 20:09:12 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 20:09:13 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 20:09:13 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 20:09:28 INFO  testcases.TC003_DDTLogin - ***** Started TC003_DDTLogin *****
+2025-10-05 20:09:28 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 20:09:29 INFO  testcases.TC003_DDTLogin - Clicked on Login Link
+2025-10-05 20:09:29 INFO  testcases.TC003_DDTLogin - Entered the email address
+2025-10-05 20:09:29 INFO  testcases.TC003_DDTLogin - Entered the password
+2025-10-05 20:09:30 INFO  testcases.TC003_DDTLogin - Clicked on login button
+2025-10-05 20:09:30 INFO  testcases.TC003_DDTLogin - Clicked on My Account Link
+2025-10-05 20:09:31 INFO  testcases.TC003_DDTLogin - ***** Finished TC003_DDTLogin *****

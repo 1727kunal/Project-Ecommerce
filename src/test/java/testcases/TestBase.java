@@ -51,7 +51,7 @@ public class TestBase {
 			System.out.println("Wrong browser parameter...");
 			return;
 		}
-
+		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.navigate().to(properties.getProperty("websiteURL"));
 	}

@@ -5,21 +5,16 @@ import org.testng.annotations.Test;
 
 import pageobjects.HomePage;
 import pageobjects.LoginPage;
-import pageobjects.MyAccountPage;
 import utility.CommonUtility;
 
 public class TC002_Login extends TestBase {
-	HomePage objHomePage;
-	LoginPage objLoginPage;
-	MyAccountPage objMyAccountPage;
 
 	@Test
 	public void verfiyLogin() {
 		logger.info("***** Started TC002_Login *****");
 
-		objHomePage = new HomePage(driver);
-		objLoginPage = new LoginPage(driver);
-		objMyAccountPage = new MyAccountPage(driver);
+		HomePage objHomePage = new HomePage(driver);
+		LoginPage objLoginPage = new LoginPage(driver);
 
 		objHomePage.clickOnMyAccount();
 		logger.info("Clicked on My Account Link");

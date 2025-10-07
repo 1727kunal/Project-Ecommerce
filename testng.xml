@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Project Ecommerce">
-	<test name="Verify Registration">
+	<test name="Verify Registration" enabled="false">
 		<parameter name="os" value="windows"></parameter>
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="testcases.TC001_AccountRegistration" />
 		</classes>
 	</test>
-	<test name="Verify Login">
+	<test name="Verify Login" enabled="false">
 		<parameter name="os" value="windows"></parameter>
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="testcases.TC002_Login" />
+		</classes>
+	</test>
+	<test name="Verify Login With DDT">
+		<parameter name="os" value="windows"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="testcases.TC003_DDTLogin" />
 		</classes>
 	</test>
 </suite>

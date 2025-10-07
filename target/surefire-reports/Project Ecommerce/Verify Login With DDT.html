@@ -1,9 +1,98 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 49.70 s <<< FAILURE! -- in TestSuite
-testcases.TC003_DDTLogin.verifyLoginWithDDT[jerryjohnson123@example.com, reset@123](1) -- Time elapsed: 3.097 s <<< FAILURE!
-java.lang.AssertionError: Title doesn't matched, login failed expected [My Account] but found [Account Login]
+<html>
+<head>
+<title>TestNG:  Verify Login With DDT</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Verify Login With DDT</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 30 16:29:25 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>30 seconds (30292 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.TC003_DDTLogin.verifyLoginWithDDT()'><b>verifyLoginWithDDT</b><br>Test class: testcases.TC003_DDTLogin<br>Parameters: kunalwagh1163@gmail.com, reset@123<br/>
+<a href="#Output-1454795302" onClick='toggleBox("Output-1454795302", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1454795302" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1454795302">
+Clicked on My Account Link<br/>
+Clicked on Login Link<br/>
+Email address is entered<br/>
+Password is entered<br/>
+Login button is clicked<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Title doesn&apos;t matched, login failed expected [My Account] but found [Account Login]
+	at testcases.TC003_DDTLogin.verifyLoginWithDDT(TC003_DDTLogin.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1454795302", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1454795302'><pre>java.lang.AssertionError: Title doesn&apos;t matched, login failed expected [My Account] but found [Account Login]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -40,9 +129,27 @@ java.lang.AssertionError: Title doesn't matched, login failed expected [My Accou
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>3</td>
+<td>testcases.TC003_DDTLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testcases.TC003_DDTLogin.verifyLoginWithDDT()'><b>verifyLoginWithDDT</b><br>Test class: testcases.TC003_DDTLogin<br>Parameters: jerryjohnson123@example.com, reset@123<br/>
+<a href="#Output-531204642" onClick='toggleBox("Output-531204642", this, "Show output", "Hide output");'>Show output</a>
 
-testcases.TC003_DDTLogin.verifyLoginWithDDT[kunalwagh1163@gmail.com, reset@123](2) -- Time elapsed: 3.026 s <<< FAILURE!
-java.lang.AssertionError: Title doesn't matched, login failed expected [My Account] but found [Account Login]
+<a href="#Output-531204642" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-531204642">
+Clicked on My Account Link<br/>
+Clicked on Login Link<br/>
+Email address is entered<br/>
+Password is entered<br/>
+Login button is clicked<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Title doesn&apos;t matched, login failed expected [My Account] but found [Account Login]
+	at testcases.TC003_DDTLogin.verifyLoginWithDDT(TC003_DDTLogin.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace531204642", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace531204642'><pre>java.lang.AssertionError: Title doesn&apos;t matched, login failed expected [My Account] but found [Account Login]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -79,9 +186,27 @@ java.lang.AssertionError: Title doesn't matched, login failed expected [My Accou
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>3</td>
+<td>testcases.TC003_DDTLogin@48f2bd5b</td></tr>
+<tr>
+<td title='testcases.TC003_DDTLogin.verifyLoginWithDDT()'><b>verifyLoginWithDDT</b><br>Test class: testcases.TC003_DDTLogin<br>Parameters: daviddawn123@gmail.com, kunal1727<br/>
+<a href="#Output-110044003" onClick='toggleBox("Output-110044003", this, "Show output", "Hide output");'>Show output</a>
 
-testcases.TC003_DDTLogin.verifyLoginWithDDT[daviddawn123@gmail.com, kunal1727](3) -- Time elapsed: 4.496 s <<< FAILURE!
-java.lang.AssertionError: Title doesn't matched, login failed expected [My Account] but found [Account Login]
+<a href="#Output-110044003" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-110044003">
+Clicked on My Account Link<br/>
+Clicked on Login Link<br/>
+Email address is entered<br/>
+Password is entered<br/>
+Login button is clicked<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Title doesn&apos;t matched, login failed expected [My Account] but found [Account Login]
+	at testcases.TC003_DDTLogin.verifyLoginWithDDT(TC003_DDTLogin.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace110044003", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace110044003'><pre>java.lang.AssertionError: Title doesn&apos;t matched, login failed expected [My Account] but found [Account Login]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -118,4 +243,36 @@ java.lang.AssertionError: Title doesn't matched, login failed expected [My Accou
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>4</td>
+<td>testcases.TC003_DDTLogin@48f2bd5b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.TC003_DDTLogin.verifyLoginWithDDT()'><b>verifyLoginWithDDT</b><br>Test class: testcases.TC003_DDTLogin<br>Parameters: kunalwagh1163@gmail.com, kunal1727<br/>
+<a href="#Output-757762073" onClick='toggleBox("Output-757762073", this, "Show output", "Hide output");'>Show output</a>
 
+<a href="#Output-757762073" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-757762073">
+Clicked on My Account Link<br/>
+Clicked on Login Link<br/>
+Email address is entered<br/>
+Password is entered<br/>
+Login button is clicked<br/>
+Clicked on My Account Link<br/>
+Clicked on Logout Link<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testcases.TC003_DDTLogin@48f2bd5b</td></tr>
+</table><p>
+</body>
+</html>

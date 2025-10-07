@@ -8,20 +8,18 @@ import pageobjects.RegistrationPage;
 import utility.CommonUtility;
 
 public class TC001_AccountRegistration extends TestBase {
-	HomePage objHomePage;
-	RegistrationPage objRegistrationPage;
 
 	@Test
 	public void verifyRegistration() {
 		logger.info("***** Started TC001_AccountRegistration *****");
 
-		objHomePage = new HomePage(driver);
+		HomePage objHomePage = new HomePage(driver);
 		objHomePage.clickOnMyAccount();
 		logger.info("Clicked on My Account Link");
 		objHomePage.clickOnRegister();
 		logger.info("Clicked on Register Link");
 
-		objRegistrationPage = new RegistrationPage(driver);
+		RegistrationPage objRegistrationPage = new RegistrationPage(driver);
 		objRegistrationPage.enterFirstName(CommonUtility.getRandomFirstName());
 		objRegistrationPage.enterLastName(CommonUtility.getRandomLastName());
 		String email = CommonUtility.getRandomEmail();

@@ -1,5 +1,7 @@
 pageobjects\PageBase.class
+testcases\TC003_DDTLogin.class
 testcases\TestBase.class
+utility\DataProviderClass.class
 pageobjects\MyAccountPage.class
 utility\CommonUtility.class
 pageobjects\HomePage.class
