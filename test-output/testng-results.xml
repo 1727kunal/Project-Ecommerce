@@ -1,79 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Clicked on My Account Link]]>
     </line>
     <line>
-      <![CDATA[Clicked on Login Link]]>
+      <![CDATA[Clicked on Register Link]]>
+    </line>
+    <line>
+      <![CDATA[First name is entered]]>
+    </line>
+    <line>
+      <![CDATA[Last name is entered]]>
     </line>
     <line>
       <![CDATA[Email address is entered]]>
     </line>
     <line>
-      <![CDATA[Password is entered]]>
-    </line>
-    <line>
-      <![CDATA[Login button is clicked]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on My Account Link]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Login Link]]>
-    </line>
-    <line>
-      <![CDATA[Email address is entered]]>
+      <![CDATA[Telephone number is entered]]>
     </line>
     <line>
       <![CDATA[Password is entered]]>
     </line>
     <line>
-      <![CDATA[Login button is clicked]]>
+      <![CDATA[Confirm password is entered]]>
     </line>
     <line>
-      <![CDATA[Clicked on My Account Link]]>
+      <![CDATA[Privacy-policy checkbox is checked]]>
     </line>
     <line>
-      <![CDATA[Clicked on Login Link]]>
+      <![CDATA[First continue button is clicked]]>
     </line>
     <line>
-      <![CDATA[Email address is entered]]>
-    </line>
-    <line>
-      <![CDATA[Password is entered]]>
-    </line>
-    <line>
-      <![CDATA[Login button is clicked]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on My Account Link]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Login Link]]>
-    </line>
-    <line>
-      <![CDATA[Email address is entered]]>
-    </line>
-    <line>
-      <![CDATA[Password is entered]]>
-    </line>
-    <line>
-      <![CDATA[Login button is clicked]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on My Account Link]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Logout Link]]>
+      <![CDATA[Second continue button is clicked]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-10-05T20:08:39 IST" name="Project Ecommerce" finished-at="2025-10-05T20:09:31 IST" duration-ms="52565">
+  <suite started-at="2025-10-07T21:16:15 IST" name="Project Ecommerce" finished-at="2025-10-07T21:16:26 IST" duration-ms="11033">
     <groups>
+      <group name="Master">
+        <method signature="TC001_AccountRegistration.verifyRegistration()[pri:0, instance:testcases.TC001_AccountRegistration@815b41f]" name="verifyRegistration" class="testcases.TC001_AccountRegistration"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC001_AccountRegistration.verifyRegistration()[pri:0, instance:testcases.TC001_AccountRegistration@815b41f]" name="verifyRegistration" class="testcases.TC001_AccountRegistration"/>
+      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2025-10-05T20:08:39 IST" name="Verify Login With DDT" finished-at="2025-10-05T20:09:31 IST" duration-ms="52565">
-      <class name="testcases.TC003_DDTLogin">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_DDTLogin@22ff4249]" started-at="2025-10-05T20:08:43 IST" name="launchBrowser" finished-at="2025-10-05T20:08:50 IST" duration-ms="7100" status="PASS">
+    <test started-at="2025-10-07T21:16:15 IST" name="Verify Registration" finished-at="2025-10-07T21:16:26 IST" duration-ms="10942">
+      <class name="testcases.TC001_AccountRegistration">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC001_AccountRegistration@815b41f]" started-at="2025-10-07T21:16:15 IST" name="launchBrowser" finished-at="2025-10-07T21:16:21 IST" duration-ms="5290" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,401 +62,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyLoginWithDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_DDTLogin@22ff4249]" started-at="2025-10-05T20:08:50 IST" name="verifyLoginWithDDT" data-provider="dataProviderForLogin" finished-at="2025-10-05T20:09:03 IST" duration-ms="12573" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[jamesLorenzo123@example.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[reset@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h2[text()='My Account']' (tried for 10 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h2[text()='My Account']' (tried for 10 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at pageobjects.MyAccountPage.checkMyAccountHeaderVisibility(MyAccountPage.java:27)
-at testcases.TC003_DDTLogin.verifyLoginWithDDT(TC003_DDTLogin.java:33)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='My Account']"}
-  (Session info: chrome=141.0.7390.55)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0a83aad16c113c53870746ac0cedebe7, findElement {using=xpath, value=//h2[text()='My Account']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.55, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57194}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57194/devtoo..., se:cdpVersion: 141.0.7390.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0a83aad16c113c53870746ac0cedebe7
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy30.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-... 28 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="verifyRegistration()[pri:0, instance:testcases.TC001_AccountRegistration@815b41f]" started-at="2025-10-07T21:16:21 IST" name="verifyRegistration" finished-at="2025-10-07T21:16:26 IST" duration-ms="5168" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicked on My Account Link]]>
             </line>
             <line>
-              <![CDATA[Clicked on Login Link]]>
+              <![CDATA[Clicked on Register Link]]>
+            </line>
+            <line>
+              <![CDATA[First name is entered]]>
+            </line>
+            <line>
+              <![CDATA[Last name is entered]]>
             </line>
             <line>
               <![CDATA[Email address is entered]]>
             </line>
             <line>
-              <![CDATA[Password is entered]]>
-            </line>
-            <line>
-              <![CDATA[Login button is clicked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC003_DDTLogin@22ff4249]" started-at="2025-10-05T20:09:03 IST" name="tearDown" finished-at="2025-10-05T20:09:03 IST" duration-ms="360" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_DDTLogin@22ff4249]" started-at="2025-10-05T20:09:03 IST" name="launchBrowser" finished-at="2025-10-05T20:09:06 IST" duration-ms="3132" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyLoginWithDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_DDTLogin@22ff4249]" started-at="2025-10-05T20:09:06 IST" name="verifyLoginWithDDT" data-provider="dataProviderForLogin" finished-at="2025-10-05T20:09:08 IST" duration-ms="2162" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[lauraPratt123@example.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[reset@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testcases.TC003_DDTLogin.verifyLoginWithDDT(TC003_DDTLogin.java:45)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[Clicked on My Account Link]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Login Link]]>
-            </line>
-            <line>
-              <![CDATA[Email address is entered]]>
+              <![CDATA[Telephone number is entered]]>
             </line>
             <line>
               <![CDATA[Password is entered]]>
             </line>
             <line>
-              <![CDATA[Login button is clicked]]>
+              <![CDATA[Confirm password is entered]]>
+            </line>
+            <line>
+              <![CDATA[Privacy-policy checkbox is checked]]>
+            </line>
+            <line>
+              <![CDATA[First continue button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Second continue button is clicked]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC003_DDTLogin@22ff4249]" started-at="2025-10-05T20:09:08 IST" name="tearDown" finished-at="2025-10-05T20:09:09 IST" duration-ms="289" status="PASS">
+        </test-method> <!-- verifyRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC001_AccountRegistration@815b41f]" started-at="2025-10-07T21:16:26 IST" name="tearDown" finished-at="2025-10-07T21:16:26 IST" duration-ms="368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_DDTLogin@22ff4249]" started-at="2025-10-05T20:09:09 IST" name="launchBrowser" finished-at="2025-10-05T20:09:11 IST" duration-ms="2962" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyLoginWithDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_DDTLogin@22ff4249]" started-at="2025-10-05T20:09:11 IST" name="verifyLoginWithDDT" data-provider="dataProviderForLogin" finished-at="2025-10-05T20:09:23 IST" duration-ms="11626" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[alexArmstrong123@example.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[reset@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[valid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h2[text()='My Account']' (tried for 10 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h2[text()='My Account']' (tried for 10 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at pageobjects.MyAccountPage.checkMyAccountHeaderVisibility(MyAccountPage.java:27)
-at testcases.TC003_DDTLogin.verifyLoginWithDDT(TC003_DDTLogin.java:33)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='My Account']"}
-  (Session info: chrome=141.0.7390.55)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ef7c91534349a0926afae3ccc3a1beb0, findElement {using=xpath, value=//h2[text()='My Account']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.55, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57246/devtoo..., se:cdpVersion: 141.0.7390.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ef7c91534349a0926afae3ccc3a1beb0
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy30.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-... 28 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-            <line>
-              <![CDATA[Clicked on My Account Link]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Login Link]]>
-            </line>
-            <line>
-              <![CDATA[Email address is entered]]>
-            </line>
-            <line>
-              <![CDATA[Password is entered]]>
-            </line>
-            <line>
-              <![CDATA[Login button is clicked]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC003_DDTLogin@22ff4249]" started-at="2025-10-05T20:09:23 IST" name="tearDown" finished-at="2025-10-05T20:09:25 IST" duration-ms="1913" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_DDTLogin@22ff4249]" started-at="2025-10-05T20:09:25 IST" name="launchBrowser" finished-at="2025-10-05T20:09:28 IST" duration-ms="3095" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyLoginWithDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_DDTLogin@22ff4249]" started-at="2025-10-05T20:09:28 IST" name="verifyLoginWithDDT" data-provider="dataProviderForLogin" finished-at="2025-10-05T20:09:31 IST" duration-ms="2971" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kunalwagh1163@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[kunal1727]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Clicked on My Account Link]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Login Link]]>
-            </line>
-            <line>
-              <![CDATA[Email address is entered]]>
-            </line>
-            <line>
-              <![CDATA[Password is entered]]>
-            </line>
-            <line>
-              <![CDATA[Login button is clicked]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on My Account Link]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Logout Link]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC003_DDTLogin@22ff4249]" started-at="2025-10-05T20:09:31 IST" name="tearDown" finished-at="2025-10-05T20:09:31 IST" duration-ms="309" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC003_DDTLogin -->
+      </class> <!-- testcases.TC001_AccountRegistration -->
+    </test> <!-- Verify Registration -->
+    <test started-at="2025-10-07T21:16:26 IST" name="Verify Login" finished-at="2025-10-07T21:16:26 IST" duration-ms="6">
+    </test> <!-- Verify Login -->
+    <test started-at="2025-10-07T21:16:26 IST" name="Verify Login With DDT" finished-at="2025-10-07T21:16:26 IST" duration-ms="2">
     </test> <!-- Verify Login With DDT -->
   </suite> <!-- Project Ecommerce -->
 </testng-results>

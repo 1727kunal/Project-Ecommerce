@@ -9,7 +9,7 @@ import utility.CommonUtility;
 
 public class TC001_AccountRegistration extends TestBase {
 
-	@Test
+	@Test(groups = { "Sanity", "Master" })
 	public void verifyRegistration() {
 		logger.info("***** Started TC001_AccountRegistration *****");
 

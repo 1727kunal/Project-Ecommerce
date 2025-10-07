@@ -9,7 +9,7 @@ import utility.CommonUtility;
 
 public class TC002_Login extends TestBase {
 
-	@Test
+	@Test(groups = { "Regression", "Master" })
 	public void verfiyLogin() {
 		logger.info("***** Started TC002_Login *****");
 

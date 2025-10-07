@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Project Ecommerce">
-	<test name="Verify Registration" enabled="false">
+	<groups>
+		<run>
+			<!--<include name="Sanity" />
+			<include name="Regression" />
+			<include name="DataDriven" />-->
+			<include name="Master" />
+		</run>
+	</groups>
+	<test name="Verify Registration">
 		<parameter name="os" value="windows"></parameter>
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="testcases.TC001_AccountRegistration" />
 		</classes>
 	</test>
-	<test name="Verify Login" enabled="false">
+	<test name="Verify Login">
 		<parameter name="os" value="windows"></parameter>
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
