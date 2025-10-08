@@ -55,20 +55,20 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Verify Registration</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Oct 07 21:16:15 IST 2025</td>
+<td>Started on:</td><td>Wed Oct 08 17:39:51 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>10 seconds (10942 ms)</td>
+<tr><td>Total time:</td><td>24 seconds (24052 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>Sanity </td>
+<td>Included groups:</td><td>Master </td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -77,10 +77,10 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testcases.TC001_AccountRegistration.verifyRegistration()'><b>verifyRegistration</b><br>Test class: testcases.TC001_AccountRegistration<br/>
-<a href="#Output-1735608827" onClick='toggleBox("Output-1735608827", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-135920409" onClick='toggleBox("Output-135920409", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1735608827" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1735608827">
+<a href="#Output-135920409" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-135920409">
 Clicked on My Account Link<br/>
 Clicked on Register Link<br/>
 First name is entered<br/>
@@ -91,12 +91,101 @@ Password is entered<br/>
 Confirm password is entered<br/>
 Privacy-policy checkbox is checked<br/>
 First continue button is clicked<br/>
-Second continue button is clicked<br/>
 </div>
 </td>
-<td></td>
-<td>5</td>
-<td>testcases.TC001_AccountRegistration@815b41f</td></tr>
+<td><div><pre>java.lang.AssertionError: Message doesn&apos;t matched, registration failed expected [Congratulations! Your new account has been successfully created!!] but found [Congratulations! Your new account has been successfully created!]
+	at testcases.TC001_AccountRegistration.verifyRegistration(TC001_AccountRegistration.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace135920409", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace135920409'><pre>java.lang.AssertionError: Message doesn&apos;t matched, registration failed expected [Congratulations! Your new account has been successfully created!!] but found [Congratulations! Your new account has been successfully created!]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testcases.TC001_AccountRegistration.verifyRegistration(TC001_AccountRegistration.java:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>9</td>
+<td>testcases.TC001_AccountRegistration@7e6f74c</td></tr>
+<tr>
+<td title='testcases.TC002_Login.verfiyLogin()'><b>verfiyLogin</b><br>Test class: testcases.TC002_Login<br/>
+<a href="#Output-439636632" onClick='toggleBox("Output-439636632", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-439636632" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-439636632">
+Clicked on My Account Link<br/>
+Clicked on Login Link<br/>
+Email address is entered<br/>
+Password is entered<br/>
+Login button is clicked<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Title doesn&apos;t matched, login failed expected [My Account] but found [Account Login]
+	at testcases.TC002_Login.verfiyLogin(TC002_Login.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace439636632", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace439636632'><pre>java.lang.AssertionError: Title doesn&apos;t matched, login failed expected [My Account] but found [Account Login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testcases.TC002_Login.verfiyLogin(TC002_Login.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>3</td>
+<td>testcases.TC002_Login@7817fd62</td></tr>
 </table><p>
 </body>
 </html>

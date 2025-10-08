@@ -15,7 +15,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 public class TestBase {
-	public WebDriver driver;
+	public static WebDriver driver;
 	public Logger logger;
 	public FileInputStream propertiesFile;
 	public Properties properties;
