@@ -2,14 +2,21 @@ package testcases;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -35,22 +42,63 @@ public class TestBase {
 		// To generate logs, logger is initialised...
 		logger = LogManager.getLogger(this.getClass());
 
-		// To perform cross-browser testing, parameter has been passed through
-		// testng.xml file and received here...
-		switch (browser.toLowerCase()) {
-		case "chrome":
-			driver = new ChromeDriver();
-			break;
-		case "edge":
-			driver = new EdgeDriver();
-			break;
-		case "firefox":
-			driver = new FirefoxDriver();
-			break;
+		// Here we are checking value of parameter environment from properties file to
+		// decide browser should be opened locally or remotely...
+		if (properties.getProperty("environment").equalsIgnoreCase("remote")) {
+			// To perform cross-platform testing, here we are setting up the HUB using
+			// selenium grid concept (Remote Setup)...
 
-		default:
-			System.out.println("Wrong browser parameter...");
-			return;
+			String gridURL = "http://localhost:4444";
+			DesiredCapabilities capabilities = new DesiredCapabilities();
+			if (os.equalsIgnoreCase("windows")) {
+				capabilities.setPlatform(Platform.WIN10);
+			} else if (os.equalsIgnoreCase("mac")) {
+				capabilities.setPlatform(Platform.MAC);
+			} else {
+				System.out.println("Wrong operating system parameter...");
+			}
+
+			switch (browser.toLowerCase()) {
+			case "chrome":
+				capabilities.setBrowserName("chrome");
+				break;
+			case "edge":
+				capabilities.setBrowserName("msedge");
+				break;
+			case "firefox":
+				capabilities.setBrowserName("firefox");
+				break;
+			default:
+				System.out.println("Wrong browser parameter...");
+				return;
+			}
+			try {
+				URI uri = new URI(gridURL);
+				URL url = uri.toURL();
+				driver = new RemoteWebDriver(url, capabilities);
+			} catch (MalformedURLException | URISyntaxException e) {
+				e.printStackTrace();
+			}
+		}
+
+		if (properties.getProperty("environment").equalsIgnoreCase("local")) {
+			// To perform cross-browser testing, parameter has been passed through
+			// testng.xml file and received here (Local Setup)...
+
+			switch (browser.toLowerCase()) {
+			case "chrome":
+				driver = new ChromeDriver();
+				break;
+			case "edge":
+				driver = new EdgeDriver();
+				break;
+			case "firefox":
+				driver = new FirefoxDriver();
+				break;
+			default:
+				System.out.println("Wrong browser parameter...");
+				return;
+			}
 		}
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();

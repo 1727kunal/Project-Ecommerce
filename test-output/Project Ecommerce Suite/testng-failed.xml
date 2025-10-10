@@ -20,6 +20,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- testcases.TC002_Login -->
+      <class name="testcases.TC001_AccountRegistration">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+          <include name="verifyRegistration"/>
+        </methods>
+      </class> <!-- testcases.TC001_AccountRegistration -->
     </classes>
   </test> <!-- Project Ecommerce Tests(failed) -->
 </suite> <!-- Failed suite [Project Ecommerce Suite] -->
