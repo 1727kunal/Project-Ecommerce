@@ -6,10 +6,11 @@ import org.testng.annotations.Test;
 import pageobjects.HomePage;
 import pageobjects.RegistrationPage;
 import utility.CommonUtility;
+import utility.ExtentReportUtility;
 
 public class TC001_AccountRegistration extends TestBase {
 
-	@Test(groups = { "Sanity", "Master" })
+	@Test(groups = { "Sanity", "Master" }, retryAnalyzer = ExtentReportUtility.class)
 	public void verifyRegistration() {
 		logger.info("***** Started TC001_AccountRegistration *****");
 

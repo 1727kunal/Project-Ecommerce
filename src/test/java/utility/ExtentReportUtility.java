@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+import org.testng.IRetryAnalyzer;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -16,12 +17,13 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import testcases.TestBase;
 
-public class ExtentReportUtility implements ITestListener {
+public class ExtentReportUtility implements ITestListener, IRetryAnalyzer {
 
 	public ExtentSparkReporter sparkReporter;
 	public ExtentReports extentReports;
 	public ExtentTest test;
-
+	final int maxRetryCount = 2;
+	int initialRetryCount = 0;
 	String reportLocation;
 
 	@Override
@@ -70,5 +72,14 @@ public class ExtentReportUtility implements ITestListener {
 	@Override
 	public void onFinish(ITestContext context) {
 		extentReports.flush();
+	}
+
+	@Override
+	public boolean retry(ITestResult result) {
+		if (initialRetryCount < maxRetryCount) {
+			initialRetryCount++;
+			return true;
+		}
+		return false;
 	}
 }

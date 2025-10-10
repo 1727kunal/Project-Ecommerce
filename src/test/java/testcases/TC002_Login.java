@@ -6,10 +6,11 @@ import org.testng.annotations.Test;
 import pageobjects.HomePage;
 import pageobjects.LoginPage;
 import utility.CommonUtility;
+import utility.ExtentReportUtility;
 
 public class TC002_Login extends TestBase {
 
-	@Test(groups = { "Regression", "Master" })
+	@Test(groups = { "Regression", "Master" }, retryAnalyzer = ExtentReportUtility.class)
 	public void verfiyLogin() {
 		logger.info("***** Started TC002_Login *****");
 

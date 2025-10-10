@@ -7,10 +7,12 @@ import pageobjects.HomePage;
 import pageobjects.LoginPage;
 import pageobjects.MyAccountPage;
 import utility.DataProviderClass;
+import utility.ExtentReportUtility;
 
 public class TC003_DDTLogin extends TestBase {
 
-	@Test(dataProvider = "dataProviderForLogin", dataProviderClass = DataProviderClass.class, groups = { "DataDriven" })
+	@Test(dataProvider = "dataProviderForLogin", dataProviderClass = DataProviderClass.class, groups = {
+			"DataDriven" }, retryAnalyzer = ExtentReportUtility.class)
 	public void verifyLoginWithDDT(String email, String password, String expResult) {
 		logger.info("***** Started TC003_DDTLogin *****");
 
